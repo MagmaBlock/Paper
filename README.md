@@ -8,7 +8,7 @@ High performance Spigot fork that aims to fix gameplay and mechanics inconsisten
 
 
 **Support and Project Discussion:**
- - [IRC](https://webchat.esper.net/?channels=paper) or [Discord](https://discord.gg/papermc)
+ - [Our forums](https://forums.papermc.io/), [Discord](https://discord.gg/papermc), or [IRC](https://webchat.esper.net/?channels=paper)
 
 How To (Server Admins)
 ------
@@ -38,7 +38,7 @@ How To (Plugin Developers)
 <dependency>
     <groupId>io.papermc.paper</groupId>
     <artifactId>paper-api</artifactId>
-    <version>1.18-R0.1-SNAPSHOT</version>
+    <version>1.18.1-R0.1-SNAPSHOT</version>
     <scope>provided</scope>
 </dependency>
  ```
@@ -54,7 +54,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.18-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.18.1-R0.1-SNAPSHOT")
 }
 
 java {
